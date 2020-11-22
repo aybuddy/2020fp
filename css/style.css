@@ -1,0 +1,52 @@
+/* 
+Palette 1: Forest Walk
+color: #92817a;
+color: #bedbbb;
+color: #8db596;
+color: #707070;
+
+Palette 2: Iceland's Weather
+color: #f1f6f9;
+color: #14274e;
+color: #394867;
+color: #9ba4b4;
+
+Palette 3: Sunset Blvd
+color: #f8efd4;
+color: #edc988;
+color: #d7385e;
+color: #132743;
+
+font-family: 'Playfair Display', serif;
+
+font-family: 'Raleway', sans-serif;
+*/
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.section:nth-of-type(1) {
+  background-color: #92817a;
+}
+.section:nth-of-type(2) {
+  background-color: #bedbbb;
+}
+.section:nth-of-type(3) {
+  background-color: #8db596;
+}
+.section:nth-of-type(4) {
+  background-color: #707070;
+}
+
+#nav {
+  position: fixed;
+  top: 20px;
+}
+
+#nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
