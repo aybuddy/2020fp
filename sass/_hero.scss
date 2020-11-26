@@ -1,0 +1,20 @@
+#hero {
+  display: grid;
+  grid-template-columns: 33% 66%;
+
+  & .container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  & .hero-img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}

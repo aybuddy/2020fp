@@ -27,26 +27,14 @@ h1 {
   font-size: 2em;
 }
 
-.section:nth-of-type(1) {
-  background-color: #92817a;
-}
-.section:nth-of-type(2) {
-  background-color: #bedbbb;
-}
-.section:nth-of-type(3) {
-  background-color: #8db596;
-}
-.section:nth-of-type(4) {
-  background-color: #707070;
-}
-
 #nav {
   position: fixed;
   top: 20px;
+  width: 100%;
 }
 
 #nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }

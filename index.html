@@ -7,23 +7,37 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;700&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/fullpage.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="/sass/main.css">
 </head>
 <body>
       
     <div id="fullpage">
-      <div class="section" id="section1">
-        <h1>About</h1>
+      <div class="section" id="hero">
+          <div class="container">
+            <h1 class="anim1">Aaron Yu</h1>
+            <p class="anim1">Front End Developer</p>
+            <a href="#projects" class="anim1" id="cta">Projects</a>
+          </div>
+          <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1606300015207-d4e499ffca80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1266&q=80" alt="">
+          </div>
       </div>
-      <div class="section" id="section2">
-        <h1>Projects</h1>
+      <div class="section" id="projects">
+        <div class="container">
+          <h1>Projects</h1>
+        </div>
+        <div class="container-img">
+          <img src="https://images.unsplash.com/photo-1606299420579-baacab12fede?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=613&q=80" alt="">
+        </div>
       </div>
-      <div class="section" id="section3">
+      <div class="section">
         <h1>Contact</h1>
       </div>
-      <div class="section" id="section4">
+      <div class="section">
         <h1>More Info</h1>
       </div>
     </div>
@@ -31,22 +45,27 @@
     <nav id="nav">
       <ul>
         <li>
-          <a href="#section1">About</a>
+          <a href="https://github.com/aybuddy" target="_blank">
+            <i class="fab fa-github fa-4x"></i>
+          </a>
         </li>
         <li>
-          <a href="#section2">projects</a>
+          <a href="https://www.linkedin.com/in/aaronyu-dev/" target="_blank">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
         </li>
         <li>
-          <a href="#section3">contact</a>
-        </li>
-        <li>
-          <a href="#section4">more</a>
+          <a href="https://medium.com/@ayybuddyy" target="_blank">
+            <i class="fab fa-medium fa-4x"></i>
+          </a>
         </li>
       </ul>
     </nav>
     
-    <script src="/js/fullpage.min.js"></script>
 
+    
+  <script src="/js/fullpage.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>

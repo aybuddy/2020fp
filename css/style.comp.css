@@ -1,0 +1,9 @@
+#nav {
+  position: fixed;
+  top: 20px;
+  width: 100%; }
+
+#nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
